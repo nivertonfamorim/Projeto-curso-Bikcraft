@@ -1,20 +1,23 @@
 body {
-  margin: 0;
-  font-family: "arial", "helvetica";
+  margin: 0px;
   color: #111111;
-  padding-bottom: 600px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4,
-ul {
-  margin: 0;
+h5,
+p,
+ul,
+blockquote,
+dd {
+  margin: 0px;
 }
 
 ul {
-  padding: 0;
+  padding: 0px;
   list-style: none;
 }
 
@@ -25,8 +28,10 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
+
 img[src$=".jpg"] {
   border-radius: 4px;
 }
